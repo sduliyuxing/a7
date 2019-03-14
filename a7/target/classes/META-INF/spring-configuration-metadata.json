@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "boot.person",
+      "name": "person",
+      "type": "boot.person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "boot.person",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "boot.person",
+      "name": "person.birth",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "boot.person",
+      "defaultValue": false,
+      "name": "person.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "boot.person",
+      "name": "person.d",
+      "type": "boot.dog"
+    },
+    {
+      "sourceType": "boot.person",
+      "name": "person.list",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "boot.person",
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "boot.person",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
